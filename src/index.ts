@@ -1,3 +1,12 @@
+/**
+ * C3 Discovery Package
+ * AI-powered pattern detection and rule inference
+ * @packageDocumentation
+ */
+
+// Force TypeScript to emit index.d.ts
+export {};
+
 export * from './domain/aggregates/PatternAnalysis/Pattern.js';
 export * from './domain/aggregates/PatternAnalysis/Evidence.js';
 export * from './domain/aggregates/PatternAnalysis/Occurrence.js';
