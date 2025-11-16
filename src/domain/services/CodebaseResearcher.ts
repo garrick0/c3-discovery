@@ -1,7 +1,7 @@
 import { ResearchSession } from '../aggregates/Research/ResearchSession.js';
-import { PropertyGraph } from 'c3-parsing';
+import { PropertyGraph } from '@garrick0/c3-parsing';
 import { LLMProvider } from '../ports/LLMProvider.js';
-import { Logger } from 'c3-shared';
+import { Logger } from '@garrick0/c3-shared';
 
 export class CodebaseResearcher {
   constructor(

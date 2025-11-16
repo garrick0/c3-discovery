@@ -1,4 +1,4 @@
-import { AggregateRoot } from 'c3-shared';
+import { AggregateRoot } from '@garrick0/c3-shared';
 import { Query } from './Query.js';
 import { Finding } from './Finding.js';
 export declare class ResearchSession extends AggregateRoot<string> {

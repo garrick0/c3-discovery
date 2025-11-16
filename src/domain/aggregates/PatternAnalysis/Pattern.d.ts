@@ -1,4 +1,4 @@
-import { AggregateRoot } from 'c3-shared';
+import { AggregateRoot } from '@garrick0/c3-shared';
 import { Evidence } from './Evidence.js';
 import { PatternType } from './PatternType.js';
 export declare class Pattern extends AggregateRoot<string> {

@@ -1,4 +1,4 @@
-import { ValueObject } from 'c3-shared';
+import { ValueObject } from '@garrick0/c3-shared';
 interface SourceProps {
     type: 'readme' | 'config' | 'code' | 'comment' | 'documentation';
     location: string;

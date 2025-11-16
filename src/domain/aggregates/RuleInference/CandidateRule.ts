@@ -1,4 +1,4 @@
-import { AggregateRoot } from 'c3-shared';
+import { AggregateRoot } from '@garrick0/c3-shared';
 import { Confidence } from './Confidence.js';
 import { Rationale } from './Rationale.js';
 import { Example } from './Example.js';

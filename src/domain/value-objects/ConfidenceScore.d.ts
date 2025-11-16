@@ -1,4 +1,4 @@
-import { ValueObject } from 'c3-shared';
+import { ValueObject } from '@garrick0/c3-shared';
 interface ConfidenceScoreProps {
     value: number;
 }

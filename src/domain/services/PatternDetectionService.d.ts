@@ -1,7 +1,7 @@
 import { Pattern } from '../aggregates/PatternAnalysis/Pattern.js';
-import { PropertyGraph } from 'c3-parsing';
+import { PropertyGraph } from '@garrick0/c3-parsing';
 import { PatternMatcher } from '../ports/PatternMatcher.js';
-import { Logger } from 'c3-shared';
+import { Logger } from '@garrick0/c3-shared';
 export declare class PatternDetectionService {
     private matchers;
     private logger;

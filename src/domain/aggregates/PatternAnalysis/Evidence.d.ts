@@ -1,4 +1,4 @@
-import { Entity } from 'c3-shared';
+import { Entity } from '@garrick0/c3-shared';
 export declare class Evidence extends Entity<string> {
     source: string;
     description: string;

@@ -1,7 +1,7 @@
 import { CandidateRule } from '../../domain/aggregates/RuleInference/CandidateRule.js';
 import { RuleInferenceService } from '../../domain/services/RuleInferenceService.js';
 import { Pattern } from '../../domain/aggregates/PatternAnalysis/Pattern.js';
-import { Logger } from 'c3-shared';
+import { Logger } from '@garrick0/c3-shared';
 
 export class InferRulesUseCase {
   constructor(

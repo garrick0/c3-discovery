@@ -1,7 +1,7 @@
 import { CandidateRule } from '../aggregates/RuleInference/CandidateRule.js';
 import { Pattern } from '../aggregates/PatternAnalysis/Pattern.js';
 import { LLMProvider } from '../ports/LLMProvider.js';
-import { Logger } from 'c3-shared';
+import { Logger } from '@garrick0/c3-shared';
 
 export class RuleInferenceService {
   constructor(

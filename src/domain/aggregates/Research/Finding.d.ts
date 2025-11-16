@@ -1,4 +1,4 @@
-import { Entity } from 'c3-shared';
+import { Entity } from '@garrick0/c3-shared';
 import { Source } from './Source.js';
 export declare class Finding extends Entity<string> {
     queryId: string;
